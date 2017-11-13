@@ -1,0 +1,53 @@
+body {
+margin: 0px;
+}
+
+.cover {
+background-image: url("Images/CanadaRainbow.JPG");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 600px;
+margin-top: -48.23px;
+}
+
+.cover h1{
+text-align: center;
+transform: translate(-50%,-50%);
+top:50%;
+left:50%;
+font-size: 72px;
+font-family:'Oswald';
+color:white;
+position: relative;
+}
+
+.navbar ul{
+font-size: 32px;
+font-family:'Oswald';
+list-style-type: none;
+margin: 0;
+padding: 15px;
+text-align: center;
+}
+.navbar li {
+display:inline-block;
+padding: 0px 25px;
+}
+.navbar a{
+text-decoration: none;
+color:black;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar li{
+  display:block;
+  }
+}
+}
+
+.hangmanH1 h1{
+font-size:32px;
+font-family:'Oswald';
+text-align:center;
+}
