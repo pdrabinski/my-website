@@ -2,4 +2,4 @@
 
 Files for pauldrabinski.com
 
-To deploy changes: from `my-website/` in terminal enter `firebase deploy`
+To deploy changes: `firebase deploy`
